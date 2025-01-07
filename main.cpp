@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream> // Программа учебная. Автор Невзорова Анастасия. КЭ-217. 2025 год
 
-using namespace std; // Программа учебная.
+using namespace std;
 
 int main() {
     int num1, num2;
@@ -21,6 +21,9 @@ int main() {
 
     // Вывод разности чисел
     cout << "Разность введённых чисел: " << num1 - num2 << endl;
+
+    // Вывод произведения чисел
+    cout << "Произведение введённых чисел: " << num1 * num2 << endl;
 
     return 0;
 }
